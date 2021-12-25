@@ -1,7 +1,7 @@
-.doing-items {
+.examples-items {
   position: relative;
 }
-.doing-text {
+.examples-text {
   position: absolute;
   bottom: 0;
   left: 0;
@@ -20,24 +20,17 @@
 .doing {
   padding-bottom: 94px;
 }
-.doing-head {
+.doing-main-head {
   text-align: center;
   margin-bottom: 42px;
 }
-.doing-list {
+.examples-list {
   display: flex;
   flex-wrap: wrap;
 }
-.doing-items {
+.examples-items {
   flex-basis: calc(100% / 3 - 30px);
 }
-.doing-items:not(:last-child) {
+.examples-items:not(:last-child) {
   margin-right: 30px;
-}
-.doing-head {
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.16;
-  letter-spacing: 0.03em;
-  color: var(--primary-text-color);
 }
